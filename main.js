@@ -25,13 +25,16 @@ if (age < 18) {
     spesa=prezzo;
 }
 
-
 console.log("La spesa è:", spesa);
 // sarà da fixare sui decimali
+let spesaNetta = spesa.toFixed(2);
+console.log("Spesa PRecisa è", spesaNetta);
 
+
+// printare in html
 
 //printa in html
-// document.getElementById("output").innerHTML= spesa;
+document.getElementById('output').innerHTML= spesaNetta;
 
 
 
